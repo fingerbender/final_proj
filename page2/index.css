@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    margin: 10px 0;
+    list-style-type: none;
+  }
+  .card:hover {
+    background: #eee;
+  }
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  input[type="text"] {
+    padding: 10px;
+    margin-right: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 85px);
+  }
+  button {
+    padding: 10px 20px;
+    margin: 4px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: orange;
+  }
+  
+  .card button {
+    /*float: right;*/
+    display: inline-block;
+    position: relative;
+  }
+  .card .courseName {
+    display: inline-block;
+  }
+  
